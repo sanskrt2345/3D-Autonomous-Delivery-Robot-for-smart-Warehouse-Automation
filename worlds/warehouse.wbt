@@ -1,0 +1,188 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896257 0.5773502691896257 0.5773502691896257 2.0944
+  position 0 0 12
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  wallHeight 2.5
+}
+SolidBox {
+  translation -2 -2 0.5
+  name "Shelf_1"
+  size 2 0.5 1
+  appearance PBRAppearance {
+    baseColor 0.2 0.35 0.7
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation 2 -2 0.5
+  name "Shelf_2"
+  size 2 0.5 1
+  appearance PBRAppearance {
+    baseColor 0.2 0.35 0.7
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation -2 2 0.5
+  name "Shelf_3"
+  size 2 0.5 1
+  appearance PBRAppearance {
+    baseColor 0.2 0.35 0.7
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation 2 2 0.5
+  name "Shelf_4"
+  size 2 0.5 1
+  appearance PBRAppearance {
+    baseColor 0.2 0.35 0.7
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation -2.5 -2 1.15
+  name "Box_1a"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation -1.5 -2 1.15
+  name "Box_1b"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation 1.5 -2 1.15
+  name "Box_2a"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation 2.5 -2 1.15
+  name "Box_2b"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation -2.5 2 1.15
+  name "Box_3a"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation -1.5 2 1.15
+  name "Box_3b"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation 1.5 2 1.15
+  name "Box_4a"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+SolidBox {
+  translation 2.5 2 1.15
+  name "Box_4b"
+  size 0.3 0.3 0.3
+  appearance PBRAppearance {
+    baseColor 0.75 0.55 0.3
+    roughness 1
+    metalness 0
+  }
+}
+Solid {
+  translation -4 0 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.8 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 0.8 0.01
+      }
+    }
+  ]
+  name "Start_A"
+}
+Solid {
+  translation 4 0 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 0.8 0.01
+      }
+    }
+  ]
+  name "Destination_B"
+}
+Pioneer3dx {
+  hidden position_0_0 3.6916629423777445e-07
+  hidden position_0_1 -1.6854340145755486e-10
+  hidden position_0_2 1.7369855573028752e-10
+  hidden rotation_1 0.5773504112818029 -0.5773501981435304 -0.5773501981435177 2.094394786861754
+  hidden position_1_0 -0.044769768019598644
+  hidden rotation_2 -0.9999999999999999 0 0 0.044769768019602
+  hidden rotation_4 0.577350269222062 -0.577350269222062 -0.5773502691247534 2.0943950000973084
+  hidden rotation_9 0.5773502691561975 -0.5773502691561975 -0.5773502692564824 2.094394999899715
+  translation -4.003374599184982 7.751578453558605e-09 0.09481555652792555
+  rotation 1.1613596666131288e-06 -0.9999999999120803 1.3209497918311444e-05 0.0346220761626299
+  name "DeliveryRobot"
+  controller "<none>"
+}
